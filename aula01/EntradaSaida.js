@@ -1,15 +1,20 @@
 // Importando a biblioteca
-const leia = require('readline-sync') //require é acessando
+const leia = require('readline-sync')
 
-//Declarando variaveis
-let nome, distancia // É possivel colocar as variaveis td na mesm  a linha
+// Declarando variaveis
+let nome, distancia
 
+// Entrada de Dados
 console.log("Digite o seu nome: ")
 nome = leia.question()
 
-console.log("\nDigite a distância percorrida na sua corrida: ") // o "\n" ele quebra uma linha no terminal
-distancia = leia.questionFloat() //questionFloat usado para número quebrado
+console.log("\nDigite a distância percorrida em sua corrida: ")
+distancia = leia.questionFloat()
 
-//Saída dos Dados
-console.log("\nBom dia, " + nome )
-console.log("\nA distância percorrida foi de: " + distancia)
+// Saída dos Dados
+console.log("\nBom dia, " + nome + ". A distância percorrida foi de: " + distancia + "km.")
+// console.log("\nA distância percorrida foi de: " + distancia)
+
+// 6 inteiro
+// 6.0 decimal
+// 25.2

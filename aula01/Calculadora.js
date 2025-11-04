@@ -1,16 +1,16 @@
-//Importando a biblioteca
-const leia = require('readline-sync') //require é acessando
+// Importando a biblioteca
+const leia = require('readline-sync')
 
-//Variaveis
+// Variaveis
 let celsius, fahrenheit
+let nome = "Juan"
 
-//Entrada de dados
-celsius = leia.questionFloat("Insira a temperatuda em Celsius: ")
+// Entrada de dados
+celsius = leia.questionFloat("Insira a temperatura em Celsius: ")
 
-//Processamento
+// Processamento
 fahrenheit = celsius * 1.8 + 32
 
-//Saída de Dados
+// Saída de dados
 console.log("A temperatura em fahrenheit é: " + fahrenheit)
-//console.log("A temperatura em fahrenheit é: %f", fahrenheit) //essa é a segunda maneira de fazer
-
+console.log("A temperatura em fahrenheit é: %f %s", fahrenheit, nome)
